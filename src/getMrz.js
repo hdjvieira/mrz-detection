@@ -235,7 +235,7 @@ function getRectKernel(w, h) {
 }
 
 function checkRatio(ratio) {
-  return ratio > 4 && ratio < 12;
+  return ratio > 4 && ratio < 12 || ratio > 16 && ratio < 19;
 }
 
 function getDistance(p1, p2) {
